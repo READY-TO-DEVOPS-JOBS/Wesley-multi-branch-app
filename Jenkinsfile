@@ -11,6 +11,11 @@ pipeline {
             steps {
                 echo 'Hello World'
             }
-        }   
+        }
+        stage('great-job') {
+            steps {
+                echo 'Hello World'
+            }
+        }    
     }
 }
